@@ -1,0 +1,101 @@
+.ncm_tela {
+    background-color: white;
+}
+
+.ncm_titulo {
+    background-color: #1E8599;
+    color: white;
+    padding: 5px;
+    width: 140px;
+    height: 30px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.exem_imag {
+    width: 300px;
+}
+.outros_ncm_lista {
+    list-style: none;
+}
+.outros_ncm_lista div{
+    display: inline-block;
+}
+.outros_ncm_lista_P {
+    background-color: #1E8599;
+    color: white;
+    padding: 5px;
+    width: 140px;
+    height: 25px;
+    border-radius: 8px;
+    margin: 5px;
+    text-align: center;
+}
+
+/* Para telas menores que 768px (tablets e smartphones) */
+@media (max-width: 768px) {
+    .ncm_titulo {
+        background-color: #1E8599;
+        color: white;
+        padding: 5px;
+        width: 140px;
+        height: 30px;
+        border-radius: 8px;
+        margin: 5px;
+    }
+    
+    .exem_imag {
+        width: 300px;
+    }
+    .outros_ncm_lista {
+        list-style: none;
+    }
+    .outros_ncm_lista div{
+        display: inline-block;
+    }
+    .outros_ncm_lista_P {
+        background-color: #1E8599;
+        color: white;
+        padding: 5px;
+        width: 140px;
+        height: 25px;
+        border-radius: 8px;
+        margin: 5px;
+        text-align: center;
+    }
+    
+}
+
+/* Para telas menores que 480px (smartphones pequenos) */
+@media (max-width: 480px) {
+    .ncm_titulo {
+        background-color: #1E8599;
+        color: white;
+        padding: 5px;
+        width: 140px;
+        height: 30px;
+        border-radius: 8px;
+        margin: 5px;
+    }
+    
+    .exem_imag {
+        width: 300px;
+    }
+    .outros_ncm_lista {
+        list-style: none;
+    }
+    .outros_ncm_lista div{
+        display: inline-block;
+    }
+    .outros_ncm_lista_P {
+        background-color: #1E8599;
+        color: white;
+        padding: 5px;
+        width: 140px;
+        height: 25px;
+        border-radius: 8px;
+        margin: 5px;
+        text-align: center;
+    }
+    
+}
